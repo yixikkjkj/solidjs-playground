@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "es6",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"],
+    },
+  },
+}
